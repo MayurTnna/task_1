@@ -1,0 +1,32 @@
+.nav-container {
+    margin: 0px 130px;
+
+
+    .navbar-brand {
+        img {
+            max-width: 295px;
+        }
+        @media screen and (max-width: 576px) {
+            max-width: 120px;
+            
+        }
+    }
+
+    .menu-items {
+        justify-content: end !important;
+        .nav-item{
+            :hover{
+                font-size: 26px;
+             }
+        }
+
+        .nav-link  {
+            font-family: 'Roboto' !important;
+            font-style: normal;
+            font-weight: 400 !important;
+            font-size: 18px;
+            line-height: 21px;
+            color: #000000 !important;
+        }
+    }
+}

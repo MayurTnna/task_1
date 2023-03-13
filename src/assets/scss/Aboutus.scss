@@ -1,0 +1,28 @@
+.about-container {
+    padding-top: 120px;
+    position: relative;
+
+    .about-image {
+        max-width: 612px;
+    }
+
+    .about-title {
+        .title-text {
+            font-family: "Rubik";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 57px;
+        }
+
+        h1::after {
+            content: '';
+            position: absolute;
+            border: 3px solid #A9A9A9;
+            border-radius: 4px;
+            bottom: 0px;
+            left: 0;
+            width: 100%;
+        }
+    }
+}
