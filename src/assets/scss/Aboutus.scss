@@ -1,28 +1,119 @@
+// .about-container {
+//     padding-top: 120px;
+//     position: relative;
+
+//     .about-image {
+//         max-width: 612px;
+//     }
+
+//     .about-title {
+//         .title-text {
+//             font-family: "Rubik";
+//             font-style: normal;
+//             font-weight: 600;
+//             font-size: 48px;
+//             line-height: 57px;
+//         }
+
+//         h1::after {
+//             content: '';
+//             position: absolute;
+//             border: 3px solid #A9A9A9;
+//             border-radius: 4px;
+//             bottom: 0px;
+//             left: 0;
+//             width: 100%;
+//         }
+//     }
+// }
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .about-container {
-    padding-top: 120px;
+  margin-top: 80px;
+
+  .about-title {
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
     position: relative;
+    text-align: start;
 
-    .about-image {
-        max-width: 612px;
+    &::after {
+      content: "";
+      position: absolute;
+      border: 3px solid #a9a9a9;
+      border-radius: 4px;
+      width: 156px;
+      bottom: -12px;
+      left: 0px;
     }
+  }
+  p {
+    font-family: 'Poppins', sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2c2c2c;
+    text-align: start;
+  }
 
+  .main-border {
+    height: 0px;
+    max-width: 220px;
+    border: 1px solid #a9a9a9;
+  }
+  .read-more {
+    text-decoration: none;
+    color: #2c2c2c;
+  }
+  @media screen and (max-width: 992px) {
     .about-title {
-        .title-text {
-            font-family: "Rubik";
-            font-style: normal;
-            font-weight: 600;
-            font-size: 48px;
-            line-height: 57px;
-        }
-
-        h1::after {
-            content: '';
-            position: absolute;
-            border: 3px solid #A9A9A9;
-            border-radius: 4px;
-            bottom: 0px;
-            left: 0;
-            width: 100%;
-        }
+      text-align: center;
+      position: relative;
+      font-size: 48px;
+      &::after {
+        position: absolute;
+        content: "";
+        left: 237px;
+        width: 130px;
+      }
     }
+    .main-border {
+      margin: auto;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .about-title {
+      text-align: center;
+      position: relative;
+      font-size: 30px;
+      &::after {
+        content: "";
+        width: 103px;
+        left: 120px;
+        position: absolute;
+      }
+    }
+    .main-border {
+      margin: auto;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .about-title {
+      text-align: center;
+      position: relative;
+      font-size: 30px;
+      &::after {
+        content: "";
+        width: 110px;
+        left: 120px;
+        position: absolute;
+      }
+    }
+    .main-border{
+        margin: auto;
+    }
+  }
 }

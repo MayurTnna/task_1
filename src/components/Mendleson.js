@@ -17,10 +17,12 @@ function Mendleson() {
             </div>
             <Navbar />
             <div className='mendleson-para'>
+                <div>
                 <h1 className='mend-title'>Mendleson
                     Communication
                     and Engagement</h1>
-                    <h5 className='mend-para'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada sed ipsum, ut quam volutpat, tortor.</h5>
+                    <p className='mend-para'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada sed ipsum, ut quam volutpat, tortor.</p>
+                    </div>
             </div>
             <div className='bottom-images'>
                 <img src={Asset3} className='img3'></img>
