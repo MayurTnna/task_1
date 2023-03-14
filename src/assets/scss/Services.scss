@@ -103,3 +103,35 @@
     }
   }
 }
+.service_left{
+    position: absolute;
+    left:0;
+    top: 90rem;
+    z-index: -3;
+}
+.comm_right{
+    position: absolute;
+    right: 0;
+    top: 128rem;
+    z-index: -3;
+}
+.faci_left{
+    position: absolute;
+    left:0;
+    top: 158rem;
+    z-index: -3;
+}
+.consult_right{
+    position: absolute;
+    right: 0;
+    top: 190rem;
+    z-index: -3;
+}
+.train_left{
+    position: absolute;
+    left:0;
+    top: 220rem;
+    z-index: -3;
+}
+
+

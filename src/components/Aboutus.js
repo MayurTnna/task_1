@@ -6,23 +6,6 @@ import communicationicon from "../assets/images/coomunication icon 1.svg"
 
 function Aboutus() {
   return (
-    // <div className="container about-container">
-    //   <div className="row">
-    //     <div className="col-lg-6">
-    //     <div className="about-image">
-    //       <img src={Aboutimg} className=""></img>
-    //     </div>
-    //     </div>
-    //     <div className="col-lg-6">
-    //         <div className="about-title">
-    //             <h1 className="title-text">About US</h1>
-    //             <hr className="double-line"></hr>
-    //         </div>
-
-
-    //     </div>
-    //   </div>
-    // </div>
     <div className='container about-container'>
             <div className='row align-items-center'>
                 <div className='col-lg-6 col-md-12 '>

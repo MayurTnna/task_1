@@ -5,10 +5,12 @@ import communication_main from '../assets/images/communication_main.svg'
 import facilitation_main from '../assets/images/facilation vector 1.svg'
 import consultation_main from '../assets/images/Consultation vector 1.svg'
 import training_main from '../assets/images/Training and vector 1.svg'
-// import asset5 from '../assets/img/service/Asset5.svg'
-// import asset6 from '../assets/img/service/Asset6.svg'
-// import asset7 from '../assets/img/service/Asset7.svg'
-// import asset8 from '../assets/img/service/Asset8.svg'
+import side1 from '../assets/images/service_left.svg'
+import side2 from '../assets/images/communication_right.svg'
+import side3 from '../assets/images/facilation_left.svg'
+import side4 from '../assets/images/consult_right.svg'
+import side5 from '../assets/images/training_right.svg'
+
 function Services() {
     return (
         <>
@@ -77,6 +79,11 @@ function Services() {
                     </div>
                 </div>
             </div>
+            <div className='service_left'><img src={side1}></img></div>
+             <div className='comm_right'><img src={side2}></img></div>
+             <div className='faci_left'><img src={side3}></img></div>
+            <div className='consult_right'><img src={side4}></img></div>
+            <div className='train_left'><img src={side5}></img></div>
 
         </>
     )

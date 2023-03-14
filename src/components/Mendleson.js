@@ -29,11 +29,7 @@ function Mendleson() {
                 <img src={Asset4} className='img4'></img>
                 <img src={Asset5} className='img5'></img>
                 <img src={Asset6} className='img6'></img>
-
-
-
             </div>
-
         </div>
     )
 }
