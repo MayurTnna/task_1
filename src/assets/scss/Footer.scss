@@ -1,0 +1,33 @@
+.footer_container {
+    margin-top: 80px;
+    background: #BFDBFF;
+
+    .footer_title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 221%;
+        color: #000000;
+    }
+
+    ul {
+        li {
+            list-style: none;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 31px;
+            color: #2C2C2C;
+
+            img {
+                height: 20px;
+                margin: 1px;
+            }
+        }
+    }
+    a {
+        text-decoration: none;
+        color: #2C2C2C;
+    }
+
+}

@@ -14,7 +14,7 @@ import side5 from '../assets/images/training_right.svg'
 function Services() {
     return (
         <>
-            <div id="service_section" className='container service-container'>
+            <div id="service" className='container service-container' >
                 <h2 className='service-title'>SERVICES</h2>
                 <p className='main-border mx-auto'></p>
                 <div className='row align-items-center mt-4 service-gap'>

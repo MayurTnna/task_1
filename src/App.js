@@ -6,6 +6,8 @@ import '../src/assets/scss/Main.scss'
 import Services from './components/Services';
 import Ourteam from './components/Ourteam';
 import Ourprojects from './components/Ourprojects';
+import Ourclients from './components/Ourclients';
+import Footer from './components/Footer';
 // import Navbar from './components/Navbar';
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
       <Services/>
       <Ourteam/>
       <Ourprojects/>
+      <Ourclients/>
+      <Footer/>
       
     </div>
   );

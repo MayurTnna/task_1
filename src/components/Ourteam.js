@@ -7,7 +7,7 @@ import person3 from "../assets/images/Person 3 img 1.svg"
 
 function Ourteam() {
   return (
-    <div className='container team-container'>
+    <div className='container team-container' id="team">
          <h2 className='team-title'>OUR TEAM</h2>
             <p className='team-border mx-auto'></p>
             <div className='row mt-5'>

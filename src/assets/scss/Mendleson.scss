@@ -226,9 +226,14 @@
     color: #000000;
 
     @media screen and (max-width:797px) {
-      font-size: 40px;
-      
-    }
+      font-size: 30px;
+      text-align: center;
+      }
+      @media screen and (max-width:576px) {
+        font-size: 20px;
+        text-align: center;
+        }
+     
    
   }
 
@@ -239,7 +244,7 @@
     line-height: 21px;
     color: #2C2C2C;
     @media screen and (max-width:797px) {
-      font-size: medium;
+      font-size: 14px;
       
     }
   }

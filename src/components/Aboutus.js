@@ -6,7 +6,7 @@ import communicationicon from "../assets/images/coomunication icon 1.svg"
 
 function Aboutus() {
   return (
-    <div className='container about-container'>
+    <div className='container about-container' id="About">
             <div className='row align-items-center'>
                 <div className='col-lg-6 col-md-12 '>
                     <img src={Aboutimg} className="img-fluid"></img>
