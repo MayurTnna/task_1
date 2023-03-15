@@ -25,13 +25,13 @@ function Services() {
                         </p>
                     </div>
                     <div className='col-lg-6 text-center'>
-                        <img src={engagement_main} className="img-fluid"></img>
+                        <img src={engagement_main} className="img-fluid order-md-2 order-sm-2"></img>
                     </div>
                 </div>
                 <div className='my-5 communication-container'>
                     <div className='row align-items-center service-gap'>
                         <div className='col-lg-6 order-lg-1 order-2 text-md-center'>
-                            <img src={communication_main} className="img-fluid"></img>
+                            <img src={communication_main} className="img-fluid order-md-2 order-sm-2"></img>
                         </div>
                         <div className='col-lg-6 order-lg-2 order-1'>
                             <h3 className='comm-title text-sm-center text-lg-start'>COMMUNICATIONS</h3>
@@ -50,7 +50,7 @@ function Services() {
                         </p>
                     </div>
                     <div className='col-lg-6 text-center'>
-                        <img src={facilitation_main} className="img-fluid"></img>
+                        <img src={facilitation_main} className="img-fluid order-md-2 order-sm-2"></img>
                     </div>
                 </div>
                 <div className='my-5 communication-container'>

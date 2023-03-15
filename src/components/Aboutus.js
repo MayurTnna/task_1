@@ -15,8 +15,8 @@ function Aboutus() {
                     <h2 className='about-title'>ABOUT US</h2>
                     <p className='main-border'></p>
                     <p className=' mt-4'>We love what we do and are driven by achieving great results for our clients. Our awards and impressive client list are testament to our high quality approach. We deliver value, creaKvity, results and excepKonal levels of customer service and professionalism. We specialise in infrastructure development, energy and natural resources.</p>
-                    <div className='row'>
-                        <div className='col-lg-6 col-sm-12 text-lg-start text-center '>
+                    <div className='row '>
+                        <div className='col-lg-6 col-md-12 col-sm-12 text-lg-start text-center my-auto '>
                             <img src={settingicon} className="img-fluid "></img>
                             <h5 className='pt-4 '>Engagement</h5>
                             <p className="pt-3 para-text ">
@@ -24,7 +24,7 @@ function Aboutus() {
                             </p>
                             <a href='#' className='read-more'>READ MORE</a>
                         </div> 
-                         <div className='col-lg-6 col-sm-12 text-lg-start  text-center'>
+                         <div className='col-lg-6 col-md-12 col-sm-12 text-lg-start  text-center'>
                             <img src={communicationicon} className="img-fluid"></img>
                             <h5 className='pt-4'>Communications</h5>
                             <p className="pt-3 para-text ">

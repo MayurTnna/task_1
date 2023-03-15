@@ -15,7 +15,7 @@ function Ourprojects() {
         <div className="col-md-6 col-sm-12 mt-4 image-container">
           <img src={building} className="img-fluid image" />
           <div className="overlay">
-            <div className="text">PROJECTS NAME</div>
+            <div className="text">PROJECTS<br/>NAME</div>
           </div>
         </div>
         <div className="col-md-6 col-sm-12 mt-4">

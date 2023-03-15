@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 .first {
   position: relative;
@@ -203,50 +203,50 @@
 .mendleson-para {
   position: relative;
   text-align: start;
-  float:right;
+  float: right;
   padding-top: 12rem;
   padding-right: 12rem;
-  max-width: 770px;
+  max-width: 700px;
   // display: flex;
   // align-items: center;
 
-  @media screen and (max-width:1400px){
+  @media screen and (max-width: 1400px) {
     text-align: center;
     float: none;
     margin: auto;
     padding-right: 0rem;
     padding-top: 1rem;
-    }
+  }
 
   .mend-title {
+    font-family: "Rubik";
     font-style: normal;
     font-weight: 500;
     font-size: 56px;
     line-height: 66px;
     color: #000000;
 
-    @media screen and (max-width:797px) {
+    @media screen and (max-width: 797px) {
       font-size: 30px;
       text-align: center;
-      }
-      @media screen and (max-width:576px) {
-        font-size: 20px;
-        text-align: center;
-        }
-     
-   
+      padding-top: 40px;
+    }
+    @media screen and (max-width: 576px) {
+      font-size: 20px;
+      text-align: center;
+    }
   }
 
   .mend-para {
+    ffont-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+    
     color: #2C2C2C;
-    @media screen and (max-width:797px) {
+    @media screen and (max-width: 797px) {
       font-size: 14px;
-      
     }
   }
-
 }
