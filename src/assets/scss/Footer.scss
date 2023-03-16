@@ -1,33 +1,62 @@
-.footer_container {
+.footer-container{
     margin-top: 80px;
-    background: #BFDBFF;
-
-    .footer_title {
+    text-align: center;
+    box-sizing: border-box;
+    .container{
+    background-color: #BFDBFF;
+    .footer_title{
+        margin: 30px;
+        font-family: 'Rubik';
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
-        line-height: 221%;
         color: #000000;
     }
-
-    ul {
-        li {
-            list-style: none;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 31px;
-            color: #2C2C2C;
-
-            img {
-                height: 20px;
-                margin: 1px;
+    ul{
+        padding: 2px;
+        li{
+            list-style: none;  
+            img{
+                margin: 10px;
+                height: 30px;
+            }
+            a{
+                text-decoration: none !important;
+                font-family: 'Rubik';
+                font-style: normal;
+                font-weight: 400;
+                color: #2C2C2C;
             }
         }
     }
-    a {
-        text-decoration: none;
-        color: #2C2C2C;
+    @media screen and (max-width:997px) {
+        .footer_title{
+            margin: 10px;
+        }
     }
-
+    .social_title{
+    }
+    margin-top: -10px;
+    .explore{
+        ul{
+            li{
+                padding: 10px 0px;
+            }
+        }
+    }
+    .contact_title{
+        ul{
+            li{
+                line-height: 30px;
+            }
+        }
+    }
+    .email_title{
+        margin-bottom: 10px;
+        a{
+            text-decoration: none !important;
+            color: #2C2C2C;
+        }
+    }
+    }
 }

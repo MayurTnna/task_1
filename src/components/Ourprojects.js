@@ -19,13 +19,13 @@ function Ourprojects() {
           </div>
         </div>
         <div className="col-md-6 col-sm-12 mt-4">
-          <div className="col-md-12 col-sm-12 image-container">
+          <div className="col-md-12 col-sm-12 image-container2">
             <img src={building1} className="img-fluid" />
             <div className="overlay">
               <div className="text">PROJECTS NAME</div>
             </div>
           </div>
-          <div className="col-md-12 col-sm-12 mt-4 image-container">
+          <div className="col-md-12 col-sm-12 mt-4 image-container2">
             <img src={building2} className="img-fluid" />
             <div className="overlay">
             <div className="text">PROJECTS NAME</div>
