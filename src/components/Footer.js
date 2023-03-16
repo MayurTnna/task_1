@@ -31,7 +31,7 @@ function Footer() {
         <div className='col-lg-3 col-md-6 explore'>
           <h5 className='footer_title '>Explore</h5>
           <ul>
-            <li><a href='#services'>Services</a></li>
+            <li><a href='#service'>Services</a></li>
             <li><a href='#team'>Team</a></li>
             <li><a href='#client'>Clients</a></li>
           </ul>
@@ -50,8 +50,9 @@ function Footer() {
         </div>
       </div>
       </div>
-      <p className='text-center'>© Copyright 2018 Mendleson Communication Pvt Ltd </p>
       </div>
+      <p className='text-center pt-4'>© Copyright 2018 Mendleson Communication Pvt Ltd </p>
+    
      </>
   )
 }
