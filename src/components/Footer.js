@@ -14,7 +14,7 @@ function Footer() {
         <div className='col-lg-3 col-md-6 social_title'>
           <h5 className='footer_title'>Social</h5>    
           <ul>
-            <li className='ps-2'>
+            <li className=''>
               <img src={facebook} />
               <a href='https://www.facebook.com/'>Facebook</a>
               </li>
@@ -22,7 +22,7 @@ function Footer() {
               <img src={linkedin} />
               <a href='https://www.linkedin.com/'>Linkdin</a>
               </li>
-            <li className='ps-2'>
+            <li className=''>
               <img src={search} />
               <a href='https://www.google.com/'>Google+</a>
               </li>
